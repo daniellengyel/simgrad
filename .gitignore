@@ -1,0 +1,25 @@
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Results and figures
+*.pkl
+*.pdf
+*.png
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
